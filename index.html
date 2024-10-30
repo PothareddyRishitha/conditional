@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let  num=prompt("enter a number");
+        let a=(num%2==0)?"Even":"odd";
+        console.log(a);
+
+
+        /* A (>= 90), B (>= 75), C (>= 60), D (>= 45), and F (below 45). Log the grade.*/
+        let grade=prompt("enter a score");
+        let X=(grade>=90)?"A":
+        (grade>=75)?"B":
+         (grade>=60)?"c":
+         (grade>=45)?"D":"fail";
+        console.log(X);
+
+
+         /*"Hot" (above 30), "Warm" (20-30), "Cool" (10-19), and "Cold" (below 10).*/
+         let weather=+prompt("enter a weather");
+         let Y=(weather<10)?"cold":
+         (weather<19)?"cool":
+         (weather)?"warm":"hot";
+         console.log(Y);
+         
+         
+           /*"Child" (0-12), "Teen" (13-19), "Adult" (20-64), and "Senior" (65 and above).*/
+
+
+           let age=+prompt("enter age");
+           let Z=(age<=12)?"child":
+           (age<=19)?"teen":
+           (age<=64)?"adult":"senior";
+           console.log(Z);
+            </script>
+</body>
+</html>
